@@ -2,7 +2,7 @@
 
 This very simple tool just run/stop and restart danila-miner.
 
-If cpuminer runs and another GPU miners doesn`t work the tool start danila-miner.
+If you run CPU miner (cpuminer) in mmpOS or HiveOS or another Linux then watcher cpuminer runs and another GPU miners doesn`t work the tool start danila-miner.
 
 If some other GPU miner (PhoenixMiner, teamredminer, nbminer) runs then danila-miner stop.
 
