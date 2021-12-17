@@ -10,10 +10,9 @@ If some other GPU miner (PhoenixMiner, teamredminer, nbminer) runs then danila-m
 
 ```
 sudo mkdir -p /opt/ton
-cd /opt/ton
-
-sudo wget https://whalepool-cdn.fra1.digitaloceanspaces.com/software/danila-miner/danila-miner-2.1.4-ubuntu-bionic.tar.gz
-sudo tar zxf danila-miner-2.1.4-ubuntu-bionic.tar.gz -C /opt/ton/
+sudo wget https://raw.githubusercontent.com/bigsadwhale/danila-watcher/main/danila-watcher.sh -P /opt/ton
+sudo wget https://whalepool-cdn.fra1.digitaloceanspaces.com/software/danila-miner/danila-miner-2.1.4-ubuntu-bionic.tar.gz -P /opt/ton
+sudo tar zxf /opt/ton/danila-miner-2.1.4-ubuntu-bionic.tar.gz -C /opt/ton/
 ```
 
 After install just add task to root crontab:
