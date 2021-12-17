@@ -15,7 +15,9 @@ sudo wget https://whalepool-cdn.fra1.digitaloceanspaces.com/software/danila-mine
 sudo tar zxf /opt/ton/danila-miner-2.1.4-ubuntu-bionic.tar.gz -C /opt/ton/
 ```
 
-After install just add task to root crontab:
+Edit file /opt/ton/danila-watsher.sh and set there your wallet.
+
+For start watcher just add task to root crontab:
 
 ```
 echo -e "$(sudo crontab -u root -l)\n*/1 * * * * /opt/ton/danila-watcher.sh >> /opt/ton/danila.log 2>&1 &" | sudo crontab -u root -
