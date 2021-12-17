@@ -2,7 +2,7 @@
 
 This is very simple tool for run/stop/restart danila-miner in Linux. I use it with mmpOS (doesn`t support TON Coin mining out of the box)
 
-This script check for running CPU miner (cpuminer-gr) and another GPU miners (PhoenixMiner, nbminer, teamredminer).
+This script check for state of CPU miner (cpuminer-gr) and another GPU miners (PhoenixMiner, nbminer, teamredminer).
 
 * For start TON mining: run some CPU miner (cpuminer-gr) AND do not run some other GPU miners.
 
